@@ -1,0 +1,378 @@
+body{
+    
+    height: 100vh;
+    background: rgb(182, 212, 212);   
+    
+}
+
+/*sign up and registration*/
+.login-page{
+    width: 360px;
+    padding:10% 0 0;
+    margin: auto;
+
+
+}
+
+.form{
+    position: relative;
+    z index: 1;
+    background:  #387AA8;
+    max-width: 360px;
+    margin: 1 auto 100px;
+    padding:45px;
+    text-align: center;
+}
+
+.form input{
+    font-family: 'Courier New', Courier, monospace;
+    outline: 1;
+    background: white;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;  
+}
+
+.form button{
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+    outline: 0;
+    background:#A5BF52;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color:white;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+.form but('../images/showcase.jpg').form button:active{
+    backg('../images/showcase.jpg')te;
+}
+
+.form .me('../images/showcase.jpg')
+    margi('../images/showcase.jpg')0;
+    color('../images/showcase.jpg')
+    font-('../images/showcase.jpg');
+         ('../images/showcase.jpg')
+}
+
+.form.message a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav {
+    postion: fixed;
+    top: 0;
+    left: 0;
+    margin: o;
+    padding: 0;
+    width: 100%;
+    height: 40px;
+    background-color:#387AA8;
+    color:white;
+    list-style: none;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    
+}
+
+.nav > li {
+    display: inline-block;
+    padding: 0 25px 0 25px;
+}
+.nav > li > a{
+    text-decoration: none;
+    color: white;
+}
+
+*
+{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    width:100%;
+    margin:auto;
+    overflow: hidden;
+}
+
+article#main-col{
+    float: left;
+    width: 65%;
+
+   
+
+
+
+
+}
+
+
+
+.profile {
+    width: 90%;
+    margin:0 auto;
+    padding: 20px;
+    
+
+}
+
+.profile:after{
+    content: '':
+    padding-bottom:90%;
+    display:block;
+    border-radius: 50%;
+    
+}
+
+.profile img{
+    position: relative;
+    width: 100%;
+    border: 8px solid #387AA8;
+    border-radius: 50%;
+    margin: 0 auto;
+
+}
+
+h2{
+    color:#A5BF52;
+    background:#387AA8;
+    text-align: center;
+    margin-top:5px;
+    padding: 10px 0;
+    font-family: 'Courier New', Courier, monospace
+}
+
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: none;
+    padding: 20px;
+    color: #387AA8;
+}
+
+
+.register{
+    background-color: #387AA8;
+    width: 500px;
+    margin: 0px 0px 0px 430px;
+    color: white;
+    font-size: 18;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#register{
+   margin-left: 50px;
+
+}
+
+label{
+    color: white;
+    font-family: 'Courier New', Courier, monospace';
+    font-size: 18px;
+    
+}
+#name{
+    width: 300px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+}
+#ph{
+    width: 65px;
+    padding: 7px;
+    border:none;
+    border-radius: 3px;
+    outline: o;
+}
+
+.register button{
+
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+    outline: 0;
+    background:#A5BF52;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color:white;
+    font-size: 14px;
+    cursor: pointer;
+}
+/*admin*/
+#header{
+    width: 100%;
+    height: 120px;
+    background: #387AA8;
+    color: white;
+}
+
+#sidebar{
+    width: 200px;
+    height: 400px;
+    background:#27ae60;
+    float: left;
+}
+
+#data{
+    height: 700px;
+    
+
+}
+
+#adminlogo{
+    background: white;
+    border-radius: 50px;
+    size: 0px
+}
+
+ul li{
+    padding: 20px;
+    border-bottom: 2px solid black;
+    list-style: none;
+}
+
+ul li:hover{
+    background:#04A2A6;
+    color: white;
+}
+
+.logo{
+    float: left;
+    color: black;
+    font-size: 22px;
+    line-height:80px;
+    padding: 0 6e,;
+}
+
+.header{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+    
+
+}
+
+.header h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.headerp{
+    color: white;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.header button{
+    color:#fff;
+    background: #387AA8;
+    padding: 12px 32px;
+    border: none;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+    transition: 0.4s;
+    width: 300px;
+    background: #387AA8;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    float: left;
+    margin: 10px;
+
+}
+
+table, th, td{
+    width: 80%;
+    margin: auto;
+    border: 1 px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 15px;
+    table-layout: fixed;
+    background: #387AA8;
+    opacity: 0.95;
+    color:black;
+    margin-top: 100px
+
+}
+
+.modal{
+    display: none;
+    width: 100%;
+    height: 100%;
+    top:10;
+
+}
+
+.modal_bg{
+    display: none;
+    background: rgba(0,0,0,0.6);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+
+}
+
+.modal_main{
+    display: none;
+    position: fixed;
+    width: 60%;
+    height: 600px;
+    background: #387AA8;
+    border-radius: 6px;
+    top: 4%;
+    left: 24%;
+    z-index: 1;
+}
+.modal_main, h1{
+
+}
+
+.closer{
+    position: absolute;
+    margin-top: -10%;
+    right: 1%;
+    cursor: pointer;
+    
+}
+
+.submission-form{
+    margin: 20px auto;
+    width: 150px;
+    color: #A5BF52;
+    
+    
+}
+
+.submission-form input{
+    padding: 10px;
+    font-size: inherit;
+
+}
+
+.submission-form input[type="text"], input[type="file"],
+ input[type="datetime"], input[type="submit"],label, select {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    border: none;
+}
