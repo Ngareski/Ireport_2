@@ -1,14 +1,113 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
-</head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>User Profile</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="javascript/jquery-1.10.2.min.js"></script>
+        <script>
+            $(document).ready(function(){
+            $(".call_modal").click(function(){
+                $(".modal").fadeIn();
+                $(".modal_main").show();
+                });
+            });
+            
+            
+            $(document).ready(function(){
+            $(".closer").click(function(){
+                $(".modal_main").fadeOut();
+                   });
+            });
+        </script>
+    </head>
 <body>
+        <div class="container">
+                <ul class="nav">
+                    
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="red_flag.html">Red-flag</a></li>
+                    <li><a href="user_profile.html">My profile</a></li>
+                    <li><a href="intervention.html">Intervention</a></li>
+                </ul> 
+    
+    <div id="sidebar">
+        <ul>
+            <li class="call_modal">Report a Red flag</a></li>
+            <li class="call_modal">Report an Intervention</a></li>
+            <li><a href="red_flag.html">View Redflags</a></li>
+            <li><a href="intervention.html">View interventions</a></li>
+            
+            <a href="#" target="_blank" style="color:#387AA8; text-decoration: none;"><li>Developer</li></a>
+        </ul>
+    </div>
+
+    <div class="wrap">
+        <div class="card">
+            <img src="images/profile.jpg" alt="card"style="width:100%">
+            <div class="container">
+                <h4><b>USER PROFILE</b></h4>
+                <p><b>User name:</b> Rihanna</p>
+                <p><b>Email: </b>rihanna@ireporter.co.ke</h4></p>
+                <p><b>Occupation:</b> Musician</p>
+                <p><b>County:</b> Nairobi</p>
+                
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="container">
+                <h4><b>Red flags</b></h4>
+                <p><b>Resolved:</b>10</p>
+                <p><b>Under investigation:</b>3</p>
+                <p><b>Draft:</b>2</p>
+                <p><b>Rejected:</b>0</p>
+                 
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="container">
+                <h4><b>Interventions</b></h4>
+                <p><b>Resolved:</b>5</p>
+                <p><b>Under investigation:</b>6</p>
+                <p><b>Draft:</b>2</p>
+                <p><b>Rejected:</b>2</p>
+            </div>
+            
+        </div>
+        <div class="card">
+            <div class="container">
+                <h4><b>All redflags and Interventions</b></h4>
+                <p><b>Total</b> 28</p>
+            </div>
+            
+        </div>
+
+        <div class="modal"></div>
+        <div class="modal_bg"></div>
+        <div class="modal_main">
+            <h1>Report a Redflag or Intervention</h1>
+            <img src="images/close.jpg" height="30" width="30" class="closer">
+                <form class="submission-form">
+                    <label>Choose item to report</label>
+                        <select id = "myList">
+                          <option value = "1">Redflag</option>
+                          <option value = "2">Intervention</option>
+                        </select>
+                    <input type="text" placeholder="Tittle">
+                    <input type="text" placeholder="Status">
+                    <input type="text" placeholder="longitude">
+                    <input type="text" placeholder="lattitude">
+                    <input type="datetime" placeholder="Date/Time">
+                    <input type="file" placeholder="Upload image">
+                    <input type="file" placeholder="Upload video">
+                    <input type="submit" name="submit">
+                </form>
+        </div>
+    </div>
     
 </body>
 </html>
